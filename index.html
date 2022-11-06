@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <link rel="stylesheet" href="index.css">  
+
+<body style="text-align:center">
+    
+	<h1>SHAKTHI S (191EE213)</h1>
+	<p>WORKSHOP ASSESSMENT - DAY 2</p>
+    <center><img class="card-img-top" src="https://media.giphy.com/media/ZTAojHK9IHsSQ/giphy.gif" alt="Card image cap"></center>
+	<div id="counter">
+		<!-- counts -->
+	</div>
+    <center><p>&#128077;</p></center>
+    <p>likes</p>
+
+    <center><img class="card-img-top" src="https://media.giphy.com/media/6j1OkiHXofa5W/giphy.gif" alt="Card image cap"></center>
+    <center><p>&#128077;</p></center>
+
+
+    
+	<script>
+		let counts=setInterval(updated);
+		let upto=0;
+		function updated(){
+			var count= document.getElementById("counter");
+			count.innerHTML=++upto;
+			if(upto===1000)
+			{
+				clearInterval(counts);
+			}
+		}
+
+        
+	</script>
+
+
+
+
+
+</body>
+</html>
